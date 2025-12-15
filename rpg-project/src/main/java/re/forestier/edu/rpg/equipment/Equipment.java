@@ -3,10 +3,7 @@ package re.forestier.edu.rpg.equipment;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * Represents equipment equipment that can be carried by players in the RPG game.
- * Each equipment has a name, description, weight, and monetary value.
- */
+
 public enum Equipment {
     LOOKOUT_RING("Lookout Ring", "Prevents surprise attacks", 5, 200),
     SCROLL_OF_STUPIDITY("Scroll of Stupidity", "INT-2 when applied to an enemy", 1, 100),
